@@ -46,4 +46,10 @@ yarn build
 yarn start
 ```
 
+#### useful links
+create a mongo db atlas account here https://www.mongodb.com/cloud/atlas/register
+<br />
+install yarn if you don't have https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
+<br />
+checkout Ts docs https://www.typescriptlang.org/
 

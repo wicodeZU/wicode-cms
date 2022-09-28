@@ -52,4 +52,6 @@ create a mongo db atlas account here https://www.mongodb.com/cloud/atlas/registe
 install yarn if you don't have https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
 <br />
 checkout Ts docs https://www.typescriptlang.org/
+<br />
+install TypeScript ```npm install -g typescript```
 

@@ -1,8 +1,9 @@
 import {Router} from "express";
 import {home} from "../../controllers";
+import {authRoute} from "./auth/auth";
 
-const router = Router();
+const homeRouter = Router();
 
-router.route("/").get(home)
+homeRouter.route("/").get(home)
 
-export const homeRouter = router;
+export  {homeRouter, authRoute}

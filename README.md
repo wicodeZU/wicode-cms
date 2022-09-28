@@ -54,6 +54,35 @@ install yarn if you don't have https://classic.yarnpkg.com/lang/en/docs/install/
 checkout Ts docs https://www.typescriptlang.org/
 <br />
 install TypeScript ```npm install -g typescript```
+#### api endpoints
+home enpoint
+```/api/v1```
+<br />
+returns
+```
+{
+"message": "Welcome to Wicode-cms api v1"
+}
+```
+signup endpoint ```/api/v1/auth/signup```
+<br />
+expects
+```
+{
+	"username":"name",
+	"email":"name@email.com",
+	"password":"*******"
+}
+```
+returns
+```
+	"newUser": {
+		"username": "name",
+		"email": "name@email.com",
+		"password": "$2b$10$ufn17nscGwOiFqMeIk3q1e5CoVrwNhLZxwG17tF/TkwwfIkKLYSP.",
+		"_id": "6334892744bf6dede7107c85",
+		"__v": 0
+	}
 
 
 ## contributing Guide

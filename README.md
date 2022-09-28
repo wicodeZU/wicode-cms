@@ -55,3 +55,35 @@ checkout Ts docs https://www.typescriptlang.org/
 <br />
 install TypeScript ```npm install -g typescript```
 
+
+## contributing Guide
+
+clone the repo using the below command
+```
+git clone https://github.com/wicodeZU/app-landing-page
+```
+then after cloning open on vscode or any other IDE
+```
+cd app-landing-page && code .
+```
+make sure to branch out the main branch using
+```
+git branch branch-name && git switch branch-name
+```
+make your changes. then commit using
+
+```
+git add <filename>
+```
+write a good commit message describing your change
+```
+git commit -m 'feat:did this change'
+```
+thn push code to the new branch you created using
+```
+git push origin branch-name
+```
+create a pull request and request for a review
+
+<br />
+happy to see you contribute

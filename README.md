@@ -28,7 +28,7 @@ yarn start
 ```
 
 #### start the api
-our api is in Nodejs, Express, Typescipt and MongoDD
+our api is in Nodejs, Express, Typescipt and MongoDB
 - change directory to app
 ```
 cd app

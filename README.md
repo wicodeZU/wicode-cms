@@ -84,8 +84,31 @@ returns
    "__v": 0
 }
 ```
+signin endpoint ```/api/v1/auth/sigin```
+<br />
+expects
 
+```
+{
+  "email":"thatdude@email.com",
+  "password":"*******"
+}
+```
+returns
+```
 
+{
+	"success": true,
+	"user": {
+		"_id": "633db685c60fa30723bb3358",
+		"username": "that dude",
+		"email": "thatdude@gmail.com",
+		"password": "$2b$10$wkFpEErs41uJcvXDxQ8KHOkD3sKhHe44gjCVpx.ZklN1o01OXE0NO",
+		"__v": 0
+	},
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjMzZGI2ODVjNjBmYTMwNzIzYmIzMzU4IiwiaWF0IjoxNjY0OTg5OTEzLCJleHAiOjE2NjQ5OTM1MTN9.M1D0Cz22wQYRSjiEiHAB_QskiI1waoV8n2uxaRR-x8I"
+}
+```
 ## contributing Guide
 
 clone the repo using the below command

@@ -1,7 +1,8 @@
 import {Request, Response} from "express";
-import {signUp} from "./auth/auth";
+import {signIn, signUp} from "./auth/auth";
 
-export default signUp
+export default {signUp, signIn}
+
 
 export const home =  (req:Request, res:Response) => {
     return res.status(200).json({message: 'Welcome to Wicode-cms api v1'});
